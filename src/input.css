@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+    @apply text-pcolor;
+}
+/* start compounets */
+/* start main heading  */
+.mainhead {
+    /* leter-space */
+    @apply text-7xl md:text-8xl font-bold text-slate-200 -mb-5 text-center capitalize;
+}
+/* end main heading  */
+
+/* end compounets */
+
+/* start heading */
+.menuchild {
+    @apply block h-1 bg-black mb-1 group-hover:bg-green-700;
+}
+.befolink {
+    @apply before:absolute before:-top-4 before:right-0 before:w-0 before:h-0
+            before:border-8 before:border-t-transparent before:border-r-transparent
+          before:border-b-slate-100 before:border-l-transparent;
+}
+.section-heading {
+    @apply mb-5 text-xl font-bold capitalize;
+}
+/* end heading */
+/* start content */
+.contener {
+    @apply md:w-[750px] xl:w-[970px] lg:w-[1170px] mx-auto py-[15px];
+}
+/* end content */
+/* start landing */
+/* end landing */
+/* start Features */
+.fatuger-feat {
+    @apply w-96 overflow-hidden text-center;
+}
+/* end Features */
+/* Start Services */
+.serv-srv {
+    @apply flex items-center text-center md:text-start md:items-start 
+            flex-col md:flex-row basis-3 py-5;
+}
+.icon-services {
+    @apply my-5 text-4xl text-maincolor md:mr-5 md:my-0;
+}
+/* .heading-services {
+    text-xl my-5 
+
+} */
+.befor-image {
+    @apply before:absolute before:-top-[50px] before:right-[-45px] before:w-[100px]
+            before:bg-slate-700 before:h-[400px] before:-z-20;
+}
+/* end Services */
+/* Start Protfolio */
+.cart-protfolio {
+    @apply  max-w-full  overflow-hidden bg-white leading-7 max-h-[455px];
+}
+.image-protfolio {
+    @apply w-full h-[40%];
+}
+.info-protfolio {
+    @apply p-8;
+}
+.heading-protfolio {
+    @apply my-3 text-2xl font-bold;
+}
+/* end Protfolio */
+/* Start About */
+.About-before-image {
+    @apply before:absolute before:top-[-25px] before:left-[-25px] before:w-[90px]
+            before:h-[260px] before:bg-secbg before:-z-10;
+}
+.About-after-image {
+    @apply after:absolute after:top-[-25px] after:right-[-100px] after:h-[200px] after:w-[140px]
+            after:border-maincolor after:border-l-[70px] after:border-b-[70px] after:-z-10;
+}
+/* end About */

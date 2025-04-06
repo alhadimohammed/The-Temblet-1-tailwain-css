@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Temblet-1 | tailwain css</title>
+        <!-- mian file of css  -->
+        <link href="./output.css" rel="stylesheet">
+        <!-- font boxicons library -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!-- start heading -->
+        <div class="w-2/3 h-16 flex justify-between  mt-10 mb-3 mx-auto shadow-md p-5">
+            <div class="logo w-8 h-8 flex justify-between items-center">
+                <span class="block h-8 w-1 bg-black"></span>
+                <span class="block w-6 h-6 rounded-full border-4 border-maincolor"></span>
+            </div>
+            <div class="group w-6 relative">
+                <span class="menuchild w-full"></span>
+                <span class="block ml-1 w-5 menuchild"></span>
+                <span class="menuchild w-full"></span>
+
+                <ul class="befolink hidden z-10 absolute group-hover:block top-8 right-0 bg-slate-100 w-52 h-fit">
+                    <li class="grooup border-b-2 border-slate-300 p-4">
+                        <a class="transition-all block hover:translate-x-8" href="#services">services</a>
+                    </li>
+                    <li class="border-b-2 border-slate-300 p-4">
+                        <a class="transition-all block hover:translate-x-8" href="#protfolio">protfolio</a>
+                    </li>
+                    <li class="border-b-2 border-slate-300 p-4">
+                        <a class="transition-all block hover:translate-x-8" href="#about">about</a>
+                    </li>
+                    <li class="p-4">
+                        <a class="transition-all block hover:translate-x-8" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end heading -->
+        <!-- start landing section -->
+        <div class="landing w-full h-svh bg-[url(image/monten.jpg)] bg-cover relative">
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center w-full md:max-w-96">
+                <h1 class="font-bold text-4xl md:text-6xl text-gree mb-5 text-maincolor">Hello There!</h1>
+                <p class="text-xl/7 text-black">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,, 
+                    impedit quam earum minima error
+                </p>
+            </div>
+        </div>
+        <!-- end landing section -->
+        <!-- Start Features -->
+         <div class="features bg-secbg py-28">
+            <div class="contener grid md:grid-cols-2 xl:grid-cols-3 text-center gap-9">
+                <div class="box-features">
+                    <i class="bx bxs-magic-wand text-6xl text-maincolor"></i>
+                    <h3 class="section-heading">beatae aspernatur adipisci</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Beatae aspernatur adipisci ipsum 
+                    </p>
+                </div>
+                <div class="box-features">
+                    <i class="bx bxl-sketch text-6xl text-maincolor"></i>
+                    <h3 class="section-heading">tell my about</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Beatae aspernatur adipisci ipsum 
+                    </p>
+                </div>
+                <div class="box-features">
+                    <i class="bx bx-globe text-6xl text-maincolor"></i>
+                    <h3 class="section-heading">amet consectetur adipisicing</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Beatae aspernatur adipisci ipsum 
+                    </p>
+                </div> 
+            </div>
+         </div>
+        <!-- End Features -->
+        <!-- Start Services -->
+        <div id="services" class="services pt-32">
+            <div class="contener">
+                <div class="mb-16">
+                    <h3 class="mainhead">services</h3>
+                    <p class="text-center"> placeat consectetur commodi sint nobis</p>
+                </div>
+                <div class="srv-content grid md:grid-cols-2 xl:grid-cols-3 gap-4 my-10 leading-7">
+                    <div class="servt-col">
+                        <div class="serv-srv">
+                            <i class='bx bxs-palette icon-services' ></i>
+                            <div class="text">
+                                <h3 class="section-heading">graphic design</h3>
+                                <p>
+                                    Lorem ipsum dolor sit doloribus quas quidem aliquid at est
+                                     inventore id odit voluptas numquam 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="serv-srv">
+                            <i class='bx bxl-sketch icon-services' ></i>
+                            <div class="text">
+                                <h3 class="section-heading">Ux & Ui</h3>
+                                <p>
+                                    ipsum dolor amet consectetur adipisicing elit Eius est 
+                                    inventore id odit voluptas numquam 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="servt-col ml-5">
+                        <div class="serv-srv">
+                            <i class='bx bx-shape-square icon-services' ></i>
+                            <div class="text">
+                                <h3 class="section-heading">web design</h3>
+                                <p>
+                                    dolor sit doloribus quas quidem aliquid at est inventore id 
+                                    odit voluptas numquam odit sed fugiat
+                                </p>
+                            </div>
+                        </div>
+                        <div class="serv-srv">
+                            <i class='bx bxs-pencil icon-services' ></i>
+                            <div class="text">
+                                <h3 class="section-heading">web development</h3>
+                                <p> 
+                                    doloribus quas quidem aliquid iste et odit sed fugiat 
+                                    Suscipit animi quod quasi deserun 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden servt-col w-fit h-full ml-10 relative befor-image xl:block">
+                        <img class="h-full w-[250px]" src="image/monten.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Services -->
+        <!-- Start Protfolio -->
+        <div id="protfolio" class="protfolio py-28 bg-secbg">
+            <div class="contener">
+                <div class="mb-16">
+                    <h3 class="mainhead">protfolio</h3>
+                    <p class="text-center">if you do it rigth, it will last forever</p>
+                </div>
+                <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
+                    <div class="cart-protfolio">
+                        <img class="image-protfolio" src="image/protfolio1.webp" alt="">
+                        <div class="info-protfolio">
+                            <h3 class="section-heading">corrupti possimus</h3>
+                            <p>consectetur adipisicing Assumenda, at doloremque corrupti cum possimus fugit repellendus eum animi quidem consectetur quibusdam</p>
+                        </div>
+                    </div>
+                    <div class="cart-protfolio">
+                        <img class="image-protfolio" src="image/protfolio2.jpg" alt="">
+                        <div class="info-protfolio">
+                            <h3 class="section-heading">project here</h3>
+                            <p>consectetur adipisicing Assumenda, at doloremque corrupti cum possimus fugit repellendus eum animi quidem consectetur quibusdam</p>
+                        </div>
+                    </div>
+                    <div class="cart-protfolio">
+                        <img class="image-protfolio" src="image/protfolio3.jpg" alt="">
+                        <div class="info-protfolio">
+                            <h3 class="section-heading">facilis Distinctio </h3>
+                            <p>consectetur adipisicing Assumenda, at doloremque corrupti cum possimus fugit repellendus eum animi quidem consectetur quibusdam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- End Protfolio -->
+        <!-- Start About -->
+        <div id="about" class="about py-28">
+            <div class="contener">
+                <div class="mb-16">
+                    <h3 class="mainhead">about</h3>
+                    <p class="text-center">less is more work</p>
+                </div>
+                <div class="md:flex justify-between">
+                    <div class="image max-w-[300px] relative About-before-image About-after-image mb-12">
+                        <img src="image/monten.jpg" alt="">
+                    </div>
+                    <div class="text-about md:max-w-[55%] leading-9">
+                        <p class="font-bold">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Iure ullam facilis voluptas optio quod, expedita numquam
+                            id dolores suscipit Magni, quod Facilis a, corporis ab 
+                            sapiente architecto eveniet expedita numquam id dolores 
+                            suscipit Magni, quod Facilis a, corporis ab sapiente architecto eveniet
+                        </p>
+                        <hr class="h-[2px] bg-maincolor w-[300px] my-4">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ullam 
+                            facilis voluptas optio quod, expedita numquam id dolores suscipit Magni, 
+                            quod Facilis a, corporis ab sapiente architecto eveniet expedita numquam
+                             id dolores suscipit Magni, quod Facilisa, corporis ab sapiente architecto eveniet
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About -->
+        <!-- Start Contact -->
+        <div id="contact" class="contact bg-secbg py-28">
+            <div class="contener text-center">
+                <div class="mb-16">
+                    <h3 class="mainhead">contact</h3>
+                    <p class="text-center">we are born to create</p>
+                </div>
+                <div class="info text-2xl md:text-4xl leading-[1.7]">
+                    <p class="title-p font-bold text-black">feel free to drop us a line at</p>
+                    <a class="text-maincolor" href="mailtor:leonagency" class="link">leonagency@gmail.com</a>
+                    <div class="icon-contact flex items-center justify-center">
+                        <span class="text-sm mr-3">pulae vreay foold to boold</span>
+                        <i class='bx bxl-youtube text-maincolor' ></i>
+                        <i class='bx bxl-facebook text-maincolor' ></i>
+                        <i class='bx bxl-twitter text-maincolor' ></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!-- Start Footer -->
+        <div class="footer text-center bg-black text-white py-9">
+            &copy; 2025 <span class="text-maincolor">leon</span> All Right Reserved [hudhod]
+        </div>
+        <!-- End Footer -->
+    </body>
+</html>
