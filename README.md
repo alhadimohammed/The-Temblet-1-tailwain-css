@@ -3,9 +3,9 @@
 # Usage 
 ### Install dependencies 
 ``` 
-### npm install  
+npm install  
 ```
-Run Tailwiand CLI 
+### Run Tailwiand CLI 
 ```
 npm run build-css
 ```
