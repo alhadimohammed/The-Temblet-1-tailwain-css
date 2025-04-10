@@ -5,7 +5,7 @@
 ``` 
 ### npm install  
 ```
-### Run Tailwiand CLI 
+Run Tailwiand CLI 
 ```
-### npm run build-css
+npm run build-css
 ```
