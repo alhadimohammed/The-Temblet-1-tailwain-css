@@ -1,7 +1,7 @@
-## The-Temblet-1-tailwain-css
+### The-Temblet-1-tailwain-css
 
-## Usage 
-Install dependencies 
+### Usage 
+# Install dependencies 
 ''' npm install '''
-Run Tailwiand CLI 
+# Run Tailwiand CLI 
 ''' npm run build-css
